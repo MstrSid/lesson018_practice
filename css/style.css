@@ -8,18 +8,17 @@ h1 {
     margin-top: 53px;
 }
 
-footer{
+footer {
     min-height: 166px;
     background-color: #1a1a1a;
     padding: 60px 0 69px 0;
-    margin-bottom: 11px;
 }
 
 h2.title {
     margin-top: 30px;
 }
 
-footer a, footer .phone{
+footer a, footer .phone {
     font-family: Roboto;
     font-size: 15px;
     font-weight: 300;
@@ -31,11 +30,11 @@ footer a, footer .phone{
     color: #888;
 }
 
-footer .links{
+footer .links {
     text-align: center;
 }
 
-footer a:first-child::after{
+footer a:first-child::after {
     display: inline-block;
     margin-left: 4px;
     content: '|';
@@ -116,6 +115,7 @@ footer a:first-child::after{
     padding: 24px;
     box-shadow: inset 0px 0 0 rgba(0, 0, 0, 0.18);
     border: solid 2px rgba(0, 0, 0, 0.226);
+    border-radius: 10px;
     background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
     text-shadow: -0.7px -0.7px 0 rgba(0, 0, 0, 0.22);
     font-family: Roboto;
