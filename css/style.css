@@ -1,0 +1,376 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 53px;
+}
+
+footer{
+    min-height: 166px;
+    background-color: #1a1a1a;
+    padding: 60px 0 69px 0;
+    margin-bottom: 11px;
+}
+
+h2.title {
+    margin-top: 30px;
+}
+
+footer a, footer .phone{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #888;
+}
+
+footer .links{
+    text-align: center;
+}
+
+footer a:first-child::after{
+    display: inline-block;
+    margin-left: 4px;
+    content: '|';
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.promo {
+    height: 900px;
+    background: url('../img/bg/main_bg.jpg') center center/cover no-repeat;
+    padding: 40px 0 60px 0;
+}
+
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo_text {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 14px;
+}
+
+.title {
+    font-family: Roboto;
+    font-size: 41px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    color: #f9bf3b;
+    text-transform: uppercase;
+}
+
+.simple .title_big {
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+    margin-top: 21px;
+}
+
+.promo .promo_text {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.33;
+    color: #fff;
+    padding: 0 12px 0 12px;
+    margin-top: 22px;
+}
+
+.promo .promo_text span {
+    font-weight: bold;
+    color: #f9bf3b;
+}
+
+.promo .promo_btn, .bonus .promo_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 73px;
+    width: 314px;
+    height: 72px;
+    padding: 24px;
+    box-shadow: inset 0px 0 0 rgba(0, 0, 0, 0.18);
+    border: solid 2px rgba(0, 0, 0, 0.226);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+    text-shadow: -0.7px -0.7px 0 rgba(0, 0, 0, 0.22);
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.promo .promo_btn:hover, .bonus .promo_btn:hover {
+    background-image: linear-gradient(to top, #1b677e 0%, #25788f 100%);
+}
+
+.more {
+    margin-top: 73px;
+}
+
+.more .more_text {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.more .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.waiting {
+    padding: 84px 0 76px 0;
+    min-height: 604px;
+    background-color: #efefef;
+}
+
+.waiting .waiting_header, .finish .finish_header, .first_webinar .first_webinar_title {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    color: #252525;
+    text-transform: uppercase;
+}
+
+.finish .finish_header {
+    color: white;
+}
+
+hr.divider {
+    width: 217px;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 18px;
+    background-color: #f9bf3b;
+    border-style: none
+}
+
+.waiting .waiting_subheader {
+    margin-top: 16px;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.87;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.waiting .waiting_wrapper {
+    display: flex;
+    margin-top: 46px;
+    justify-content: space-between;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    display: inline-block;
+    vertical-align: top;
+    width: 340px;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_desr {
+    margin-top: 32px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
+
+.optimization {
+    min-height: 550px;
+    padding: 102px 0 80px 0;
+}
+
+.optimization .optimization_header {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #299cbd;
+    text-transform: uppercase;
+    margin-left: 390px;
+}
+
+.optimization .optimization_text {
+    margin-left: 390px;
+    margin-top: 17px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.59;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #4a4a4a;
+}
+
+.optimization .optimization_text p {
+    margin-top: 8px;
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
+}
+
+.finish {
+    min-height: 448px;
+    padding: 86px 0 80px 0;
+    background: url('/img/bg/second_bg.jpg') center center/cover no-repeat
+}
+
+.finish .finish_wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    color: #efefef;
+    margin-top: 25px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+
+.bonus {
+    min-height: 628px;
+    background-color: #efefef;
+    padding: 86px 0;
+}
+
+.bonus .bonus_icon {
+    display: block;
+    width: 154px;
+    margin: 0 auto;
+}
+
+.bonus .bonus_descr {
+    margin-top: 42px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #252525;
+}
+
+.first_webinar {
+    min-height: 516px;
+    padding: 90px 0 65px 0;
+}
+
+.first_webinar .first_webinar_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.first_webinar .first_webinar_title {
+    margin-top: 37px;
+}
+
+.first_webinar .first_webinar_time {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #299cbd;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.first_webinar .first_webinar_hurry {
+    margin-top: 25px;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.87;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+}
