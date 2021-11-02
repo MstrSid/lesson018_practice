@@ -112,14 +112,13 @@ footer a:first-child::after {
     margin-top: 73px;
     width: 314px;
     height: 72px;
-    padding: 24px;
     box-shadow: inset 0px 0 0 rgba(0, 0, 0, 0.18);
     border: solid 2px rgba(0, 0, 0, 0.226);
     border-radius: 10px;
     background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
     text-shadow: -0.7px -0.7px 0 rgba(0, 0, 0, 0.22);
     font-family: Roboto;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: normal;
     font-stretch: condensed;
     font-style: normal;
